@@ -145,7 +145,7 @@
 
 /* Dynamic Profile Card */
 .dynamic_profile-container {
-  width: 90%!important;
+  width: 90% !important;
   height: 330px;
   margin-inline: auto;
   display: flex;
@@ -231,4 +231,71 @@
   font-weight: 400;
   text-align: left;
   transition: 0.5s all ease-in;
+}
+
+/* Countdown Timer */
+.countdown_container {
+  background-color: #02b0e3;
+  padding: 1rem 0;
+  min-height: max-content;
+  height: 400px;
+}
+.countdown_wrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/bg-countdown.png");
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.countdown_clock {
+  width: min(90%, 500px);
+  height: 200px;
+  border-radius: 14px;
+  background: #02b0e3;
+  box-shadow: -30.53px 30.53px 14.08px 158.401px rgba(0, 138, 130, 0.1) inset,
+    30.53px -30.53px 14.08px 148.545px rgba(0, 138, 130, 0.1) inset,
+    0px 0px 15px 0px #fff;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.countdown_cards-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  column-gap: 10px;
+  position: relative;
+}
+.color_red {
+  color: #8f0d0b !important;
+}
+.countdown_cards {
+  color: #ffffff;
+  font-size: 67px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Digital Numbers";
+  flex: 1;
+  border-radius: 3px;
+  text-align: center;
+  border: 0.3px solid #ffffff8d;
+  background: linear-gradient(
+    180deg,
+    #ffffff85 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(22px);
+  margin-top: -40px;
+}
+.countdown_clock-label {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 24px;
 }

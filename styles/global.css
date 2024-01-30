@@ -1,11 +1,11 @@
 /* fonts */
-/* @font-face {
+@font-face {
   font-family: "Digital Numbers";
   font-style: normal;
   font-weight: normal;
   src: local("Digital Numbers Regular"),
     url("../assets/fonts/DigitalNumbers.woff") format("woff");
-} */
+}
 
 * {
   margin: 0;
