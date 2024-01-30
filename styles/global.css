@@ -303,7 +303,15 @@ p.footer_desc-text:first-child {
 
 .heading_text {
   color: #000;
-  font-family: Poppins;
   font-size: 28px;
+  font-weight: 600;
+}
+.para_text {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.text_bold {
   font-weight: 600;
 }
