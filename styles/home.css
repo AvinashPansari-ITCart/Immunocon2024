@@ -154,7 +154,7 @@
   width: 100%;
   max-height: max-content;
   gap: 20px;
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
   flex-wrap: wrap;
 }
 .dynamic_cards {
