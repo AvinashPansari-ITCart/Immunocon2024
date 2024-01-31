@@ -1,0 +1,54 @@
+.container {
+  --max-width: 1280px;
+  --padding: 1rem;
+  
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+  }
+
+.main_container{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.para_text {
+  padding: 10px 0px;
+}
+.page_heading {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.about_bangalore .line {
+  margin-inline: auto;
+  background-color: #7cdb31;
+  height: 2px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.about_bangalore .title_label {
+  color: var(--Cyan-Colour, #008A82);
+  font-size: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.about_bangalore {
+  display: flex;
+  gap: 35px;
+}
+
+.content_wrapper {
+  width: 60%;
+  height: max-content;
+}
+.image_wrapper {
+  width: 40%;
+  height: 738px;
+  object-fit: cover;
+  border-radius: 12px;
+  overflow: hidden;
+}
