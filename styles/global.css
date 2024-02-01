@@ -167,12 +167,14 @@ header {
   height: 56px;
   background: linear-gradient(90deg, #008a82 28.58%, #3a29ab 84.03%);
   display: flex;
-  justify-content: end;
   align-items: center;
+}
+.nav_container .nav_spacer {
+  width: 270px;
 }
 .nav_menu {
   display: flex;
-  width: min(1100px, 100%);
+  width: min(1140px, 100%);
   justify-content: space-evenly;
   height: 100%;
   align-items: center;
