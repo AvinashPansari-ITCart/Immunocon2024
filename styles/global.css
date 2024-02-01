@@ -71,6 +71,15 @@ body {
   padding: 0px 0px !important;
 }
 
+.list_item_text {
+  color: var(--dark-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4em;
+  font-family: 'Poppins', sans-serif;
+  padding: 0px 0px !important;
+}
 .text_bold {
   font-weight: 600;
 }
